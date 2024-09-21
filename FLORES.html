@@ -7,6 +7,13 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="icon" href="img/flowers.png" type="image/x-icon">
     <title>FLORES</title>
+    
+ <script>
+      if (document.body.classList.contains('floricienta-page')) {
+        document.getElementById('floricienta-audio').play();
+      }
+    </script>
+
 </head>
 
 <body class="container">
@@ -308,5 +315,14 @@
       </div>
     </div>
     <script src="main.js"></script>
+
+     <audio id="floricienta-audio" src="img/Floricienta.mp3" autoplay></audio>
+  
+    <script>
+      if (document.body.classList.contains('floricienta-page')) {
+        document.getElementById('floricienta-audio').play();
+      }
+    </script>
+
   </body>
 </html>
